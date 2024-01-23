@@ -1,13 +1,25 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { icon } from '@fortawesome/fontawesome-svg-core/import.macro'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
 const Contact = () => {
     return (
         <div className="pages">
-            <h1>Contact</h1>
-            <p>
-                <a href="mailto: santiago.jimenez.casas@gmail.com">Email</a>
-            </p>
-            <p>
-                <a href="https://www.linkedin.com/in/santiago-jim%C3%A9nez-a33883205/">LinkedIn</a>
-            </p>
+            <div className="contactPage">
+                
+                <h1>Santiago Jiménez</h1>
+                <h2>Computer Science Student</h2>
+                <ul className="socialIcons" style={{ listStyleType: "none" }}>
+                    <li>
+                    <a className="iconLink" href="mailto: santiago.jimenez.casas@gmail.com" target="_blank"><FontAwesomeIcon icon={faEnvelope} /></a>
+                    </li>
+                    <li>
+                    <a className="iconLink" href="https://www.linkedin.com/in/jimenezsantiago/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+                    </li>
+                </ul>
+            
+            </div>
         </div>
     );
 }
