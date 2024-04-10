@@ -1,46 +1,68 @@
-# Getting Started with Create React App
+<h1 align="center">Santiago Jiménez Portfolio Website</h1>
+Welcome to my developer portfolio. This is a space to showcase my passion for coding and design. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+1. <a href="#key-features">Key Features</a>
+2. <a href="#ideas-for-future-implementation">Ideas For Future Implementation</a>
+3. <a href="#technologies-used">Technologies Used</a>
+4. <a href="#how-to-use">How To Use</a>
+5. <a href="#support">Support</a>
+6. <a href="#license">License</a>
+7. <a href="#credit">Credit</a>
 
-## Available Scripts
+------------
 
-In the project directory, you can run:
+## Key Features
+- 
 
-### `npm start`
+![Particle animation section of my portfolio](public/assets/portfolio-preview.gif)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Ideas for Future Implementation
+- ~~Finish the website~~ (Completed)
+- Light/ dark mode
+- Custom mouse pointer
+- 3D elements
+- Resume in webpage design
+- Responsive design
+- Custom 404 page
+- Contact Form
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies Used
+![](https://img.shields.io/badge/React-334E68?style=plastic&logo=react&logoColor=D9E8FF&labelColor=061178) ![](https://img.shields.io/badge/HTML-334E68?style=plastic&logo=html5&logoColor=D9E8FF&labelColor=061178) ![](https://img.shields.io/badge/CSS-334E68?style=plastic&logo=css3&logoColor=D9E8FF&labelColor=061178) ![](https://img.shields.io/badge/JavaScript-334E68?style=plastic&logo=javascript&logoColor=D9E8FF&labelColor=061178)
 
-### `npm test`
+## How To Use
+Ensure you have the following installed on your computer:
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org/en/download/) (version 20.6.1 or greater)
+	- Installing Node.js will automatically include [npm](http://npmjs.com)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In your command line:
+```bash
+# Clone this repository
+$ git clone https://github.com/edwardpark1/EdParkPortfolioV2.git
 
-### `npm run build`
+# Go into the repository
+$ cd EdParkPortfolioV2
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Install dependencies
+$ npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Run the app in development
+$ npm run dev
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Build the app for production
+$ npm run build
+```
 
-### `npm run eject`
+## Support
+<a href="https://www.buymeacoffee.com/santii_jc" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-blue.png" alt="Buy Me A Coffee" style="height: 50px !important;width: 181px !important;" ></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## License
+This project is licensed under the terms of 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Credit
+- [@santin203](https://github.com/santin203)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[![Portfolio Website](https://img.shields.io/badge/Portfolio-Website-061178?style=plastic&logoColor=D9E8FF&labelColor=061178)](https://santin203.github.io/)
+[![GitHub Profile](https://img.shields.io/badge/GitHub-Profile-061178?style=plastic&logo=github&logoColor=D9E8FF&labelColor=061178)](https://github.com/santin203)
+[![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-Profile-061178?style=plastic&logo=linkedin&logoColor=D9E8FF&labelColor=061178)](https://www.linkedin.com/in/jimenezsantiago/)
