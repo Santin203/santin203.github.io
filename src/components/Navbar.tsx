@@ -15,8 +15,9 @@ const Navbar = () => {
         <ul>
             <CustomLink to="/about">About</CustomLink>
             <CustomLink to="/projects">Projects</CustomLink>
-            <CustomLink to="/contact">Contact</CustomLink>
             <CustomLink to="/resume">Resume</CustomLink>
+            <CustomLink to="/contact">Contact</CustomLink>
+            
         </ul>
     </nav>
   );
