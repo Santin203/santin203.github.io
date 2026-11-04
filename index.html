@@ -1,1 +1,505 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>React App</title><script defer="defer" src="/static/js/main.5a97bf89.js"></script><link href="/static/css/main.02110a04.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Santiago Jiménez Casas — Software & Data Engineer</title>
+  <meta name="description" content="Santiago Jiménez Casas — Computer Science graduate (Texas Tech University Costa Rica, Magna Cum Laude) working across software development, cloud, data engineering and clinical statistical programming." />
+  <meta name="author" content="Santiago Jiménez Casas" />
+  <meta name="theme-color" content="#f3efe6" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#101211" media="(prefers-color-scheme: dark)" />
+  <link rel="canonical" href="https://santin203.github.io/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://santin203.github.io/" />
+  <meta property="og:title" content="Santiago Jiménez Casas — Software & Data Engineer" />
+  <meta property="og:description" content="Software, cloud and data — from serverless apps on AWS to clinical trial datasets in SAS and R." />
+  <meta name="twitter:card" content="summary" />
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <script>
+    // Apply saved theme before paint to avoid a flash.
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Santiago Jiménez Casas",
+    "url": "https://santin203.github.io/",
+    "email": "mailto:santiago.jimenez.casas@gmail.com",
+    "jobTitle": "Software & Data Engineer",
+    "alumniOf": "Texas Tech University Costa Rica",
+    "address": { "@type": "PostalAddress", "addressCountry": "CR" },
+    "sameAs": [
+      "https://github.com/santin203",
+      "https://www.linkedin.com/in/jimenezsantiago/"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Santiago Jiménez Casas — home">
+        <span class="brand-mark" aria-hidden="true">SJ</span>
+        <span class="brand-name">Santiago Jiménez</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">
+          <span class="sr-only">Menu</span>
+          <span class="bars" aria-hidden="true"></span>
+        </button>
+        <ul id="nav-list" class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="theme-toggle" type="button" aria-label="Toggle color theme">
+        <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg>
+        <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ───────────────────────────── Hero ───────────────────────────── -->
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Heredia, Costa Rica · Open to new roles</p>
+        <h1 class="hero-title">
+          Software, cloud &amp; <em>data</em>.<br />
+          Built carefully, <span class="nowrap">documented well.</span>
+        </h1>
+        <p class="lede">
+          I'm Santiago Jiménez Casas, a Computer Science graduate (Magna Cum Laude) who has shipped
+          serverless apps on AWS for 1,000+ users and programmed clinical trial datasets in SAS and R.
+          I like problems where clean code and clean data matter equally.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="assets/Santiago_Jimenez_CV.pdf" target="_blank" rel="noopener">
+            Download CV
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="#projects">See projects</a>
+        </div>
+        <ul class="social" aria-label="Elsewhere">
+          <li><a href="https://github.com/santin203" target="_blank" rel="noopener">GitHub ↗</a></li>
+          <li><a href="https://www.linkedin.com/in/jimenezsantiago/" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+          <li><a href="mailto:santiago.jimenez.casas@gmail.com">Email ↗</a></li>
+        </ul>
+      </div>
+
+      <figure class="cell" aria-label="Career summary, styled as a notebook cell">
+        <div class="cell-bar" aria-hidden="true">
+          <span></span><span></span><span></span>
+          <code>career.ipynb</code>
+        </div>
+        <div class="cell-body">
+          <p class="cell-in"><span class="prompt">In [1]:</span> <code>santiago.<b>head</b>()</code></p>
+          <div class="table-scroll">
+            <table class="df">
+              <thead>
+                <tr><th></th><th>role</th><th>org</th></tr>
+              </thead>
+              <tbody>
+                <tr><th>0</th><td>Statistical Programmer</td><td>Intego Group</td></tr>
+                <tr><th>1</th><td>Tech Ops Associate</td><td>Proexia</td></tr>
+                <tr><th>2</th><td>AWS Developer Intern</td><td>Fujitsu</td></tr>
+                <tr><th>3</th><td>B.S. Computer Science</td><td>Texas Tech CR</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="cell-in"><span class="prompt">In [2]:</span> <code>santiago.<b>describe</b>()</code></p>
+          <dl class="stats">
+            <div><dt>users served</dt><dd>1,000+</dd></div>
+            <div><dt>gpa</dt><dd>3.86</dd></div>
+            <div><dt>certifications</dt><dd>4</dd></div>
+            <div><dt>languages</dt><dd>ES · EN</dd></div>
+          </dl>
+        </div>
+      </figure>
+    </section>
+
+    <!-- ───────────────────────────── About ───────────────────────────── -->
+    <section id="about" class="section wrap">
+      <header class="section-head">
+        <span class="section-num">01</span>
+        <h2>About</h2>
+      </header>
+      <div class="about-grid">
+        <div class="prose reveal">
+          <p class="big">
+            My work sits where <em>software engineering</em> meets <em>data</em>: writing the systems that
+            move information, and the code that makes sure it's right.
+          </p>
+          <p>
+            At Fujitsu I built an internal web app on AWS Amplify, React and Cognito with a serverless
+            backend (Lambda, DynamoDB, API Gateway), plus monitoring and search through CloudWatch and
+            OpenSearch. More recently at Intego Group I moved into clinical data, programming in SAS and R
+            against CDISC standards (SDTM, ADaM) and producing Tables, Listings &amp; Graphs with the
+            pharmaverse ecosystem.
+          </p>
+          <p>
+            Along the way I've learned that the unglamorous parts, such as validation, documentation and
+            quality control, are what make a project trustworthy. I pick up new tools quickly and I enjoy
+            explaining technical things clearly to people who aren't technical.
+          </p>
+        </div>
+        <aside class="facts reveal" aria-label="Quick facts">
+          <dl>
+            <div><dt>Based in</dt><dd>Heredia, Costa Rica</dd></div>
+            <div><dt>Education</dt><dd>B.S. Computer Science, Texas Tech University Costa Rica</dd></div>
+            <div><dt>Focus</dt><dd>Data engineering · Statistical programming · Cloud &amp; web</dd></div>
+            <div><dt>Languages</dt><dd>Spanish (native), English (advanced)</dd></div>
+            <div><dt>Off the clock</dt><dd>Gym, soccer, basketball, video games</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ───────────────────────────── Experience ───────────────────────────── -->
+    <section id="experience" class="section wrap">
+      <header class="section-head">
+        <span class="section-num">02</span>
+        <h2>Experience</h2>
+      </header>
+
+      <ol class="timeline">
+        <li class="job reveal">
+          <div class="job-meta">
+            <time>May 2026 — Sep 2026</time>
+            <span class="tag">Clinical data</span>
+          </div>
+          <div class="job-body">
+            <h3>Statistical Programmer <span class="at">@ Intego Group</span></h3>
+            <ul>
+              <li>Built working knowledge of SAS and R for clinical data programming, statistical analysis and reproducible data workflows.</li>
+              <li>Trained in clinical trial data standards and workflows: SDTM, ADaM, and Tables, Listings &amp; Graphs (TLGs).</li>
+              <li>Worked with the pharmaverse ecosystem and R tooling for standardized clinical data analysis and reporting.</li>
+              <li>Strengthened data validation, documentation and quality-control practices on structured clinical datasets.</li>
+            </ul>
+            <ul class="chips" aria-label="Technologies"><li>SAS</li><li>R</li><li>SDTM</li><li>ADaM</li><li>TLGs</li><li>pharmaverse</li></ul>
+          </div>
+        </li>
+
+        <li class="job reveal">
+          <div class="job-meta">
+            <time>Dec 2025 — Aug 2026</time>
+            <span class="tag">Operations</span>
+          </div>
+          <div class="job-body">
+            <h3>Technical Operations Associate <span class="at">@ Proexia</span></h3>
+            <ul>
+              <li>Designed visual materials and technical presentations for corporate training, turning complex information into accessible formats.</li>
+              <li>Configured and administered corporate email accounts and communication tools, keeping data and connectivity reliable.</li>
+              <li>Installed, configured and maintained digital platforms, troubleshooting issues to keep operations running.</li>
+            </ul>
+            <ul class="chips" aria-label="Technologies"><li>Platform admin</li><li>Technical docs</li><li>Training</li></ul>
+          </div>
+        </li>
+
+        <li class="job reveal">
+          <div class="job-meta">
+            <time>Jan 2023 — Jun 2023</time>
+            <span class="tag">Cloud</span>
+          </div>
+          <div class="job-body">
+            <h3>AWS Developer Intern <span class="at">@ Fujitsu</span></h3>
+            <ul>
+              <li>Independently developed a scalable internal web app used by 1,000+ employees with AWS Amplify, React and Cognito.</li>
+              <li>Engineered a serverless backend with Lambda, DynamoDB and API Gateway for RESTful integrations and data flow.</li>
+              <li>Implemented monitoring and search with Amazon CloudWatch and OpenSearch for reliability and performance.</li>
+              <li>Wrote deployment and testing documentation (CodeCommit) to make handover and maintenance smooth.</li>
+            </ul>
+            <ul class="chips" aria-label="Technologies"><li>AWS Amplify</li><li>React</li><li>Cognito</li><li>Lambda</li><li>DynamoDB</li><li>API Gateway</li><li>OpenSearch</li></ul>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ───────────────────────────── Projects ───────────────────────────── -->
+    <section id="projects" class="section wrap">
+      <header class="section-head">
+        <span class="section-num">03</span>
+        <h2>Selected projects</h2>
+      </header>
+
+      <div class="filters" role="group" aria-label="Filter projects">
+        <button class="filter is-active" data-filter="all" aria-pressed="true">All</button>
+        <button class="filter" data-filter="data" aria-pressed="false">Data &amp; ML</button>
+        <button class="filter" data-filter="web" aria-pressed="false">Web &amp; APIs</button>
+        <button class="filter" data-filter="systems" aria-pressed="false">Systems</button>
+      </div>
+
+      <div class="projects">
+        <article class="project feature reveal" data-cat="data">
+          <div class="project-top">
+            <span class="kind">Machine learning</span>
+            <span class="year">2026</span>
+          </div>
+          <h3>F1 Predictor</h3>
+          <p>
+            End-to-end ML pipeline for Formula 1 race weekends. It ingests seasons from 2019 onward, engineers
+            features and trains four models: points finish, DNF risk, finishing position and full
+            finishing-order ranking. It can also make pre-weekend predictions before session data exists.
+          </p>
+          <ul class="chips"><li>Python</li><li>scikit-learn</li><li>Feature engineering</li><li>CLI</li></ul>
+          <div class="links">
+            <a href="https://github.com/santin203/F1-Predictor" target="_blank" rel="noopener">Source ↗</a>
+          </div>
+        </article>
+
+        <article class="project feature reveal" data-cat="data">
+          <div class="project-top">
+            <span class="kind">LLM tooling</span>
+            <span class="year">2026</span>
+          </div>
+          <h3>Prompt Evaluation Sandbox</h3>
+          <p>
+            A Streamlit tool that A/B tests system prompts using an LLM-as-a-judge. It runs both prompts in
+            parallel, scores them on faithfulness, hallucinations, helpfulness, clarity or safety, and
+            declares a winner. Works with Groq, Gemini or a fully local Ollama model.
+          </p>
+          <ul class="chips"><li>Python</li><li>Streamlit</li><li>LLM evaluation</li><li>Ollama</li></ul>
+          <div class="links">
+            <a href="https://github.com/santin203/Prompt-Evaluation-Sandbox" target="_blank" rel="noopener">Source ↗</a>
+          </div>
+        </article>
+
+        <article class="project reveal" data-cat="web">
+          <div class="project-top">
+            <span class="kind">Full-stack</span>
+            <span class="year">2024</span>
+          </div>
+          <h3>HOA System</h3>
+          <p>
+            A web app for homeowners associations with real-time payment status for owners and
+            administrators, so nobody misses an upcoming or overdue payment.
+          </p>
+          <ul class="chips"><li>TypeScript</li><li>Prisma</li><li>PostgreSQL</li><li>Vercel</li></ul>
+          <div class="links">
+            <a href="https://hoa-system-alpha.vercel.app" target="_blank" rel="noopener">Live ↗</a>
+            <a href="https://github.com/santin203/HOA-System" target="_blank" rel="noopener">Source ↗</a>
+          </div>
+        </article>
+
+        <article class="project reveal" data-cat="web">
+          <div class="project-top">
+            <span class="kind">Full-stack</span>
+            <span class="year">2025</span>
+          </div>
+          <h3>ITSM Platform</h3>
+          <p>
+            An IT service management app with a complete authentication flow: protected routes,
+            multi-factor authentication, password reset by email, and session handling backed by Redis.
+          </p>
+          <ul class="chips"><li>Next.js</li><li>Firebase</li><li>Redis</li><li>Nodemailer</li></ul>
+          <div class="links">
+            <a href="https://github.com/santin203/ITSM" target="_blank" rel="noopener">Source ↗</a>
+          </div>
+        </article>
+
+        <article class="project reveal" data-cat="systems">
+          <div class="project-top">
+            <span class="kind">Information retrieval</span>
+            <span class="year">2024</span>
+          </div>
+          <h3>Search Engine</h3>
+          <p>
+            A document indexer and search engine that parses TXT, PDF, HTML, XML, CSV and JSON files and ranks
+            results with TF-IDF, BM25 and cosine similarity. Runs from the command line.
+          </p>
+          <ul class="chips"><li>C#</li><li>.NET</li><li>BM25</li><li>TF-IDF</li></ul>
+          <div class="links">
+            <a href="https://github.com/santin203/Search-Engine" target="_blank" rel="noopener">Source ↗</a>
+          </div>
+        </article>
+
+        <article class="project reveal" data-cat="web">
+          <div class="project-top">
+            <span class="kind">REST API</span>
+            <span class="year">2025</span>
+          </div>
+          <h3>Periodic Table API</h3>
+          <p>
+            A small, deployed REST API that looks up chemical elements by symbol, name or atomic number,
+            returning structured JSON.
+          </p>
+          <ul class="chips"><li>Python</li><li>Flask</li><li>Serverless</li></ul>
+          <div class="links">
+            <a href="https://periodic-table-api-wine.vercel.app" target="_blank" rel="noopener">Live ↗</a>
+            <a href="https://github.com/santin203/Periodic-Table-API" target="_blank" rel="noopener">Source ↗</a>
+          </div>
+        </article>
+
+        <article class="project reveal" data-cat="data">
+          <div class="project-top">
+            <span class="kind">Kaggle</span>
+            <span class="year">2024</span>
+          </div>
+          <h3>Insurance Cross-Sell Classifier</h3>
+          <p>
+            Binary classification for the Kaggle Playground (S4E7) competition, predicting which customers
+            respond to an insurance cross-sell offer.
+          </p>
+          <ul class="chips"><li>Python</li><li>Jupyter</li><li>Classification</li></ul>
+          <div class="links">
+            <a href="https://github.com/santin203/ICS-Classifier" target="_blank" rel="noopener">Source ↗</a>
+          </div>
+        </article>
+
+        <article class="project reveal" data-cat="data">
+          <div class="project-top">
+            <span class="kind">Deep learning</span>
+            <span class="year">2024</span>
+          </div>
+          <h3>Fashion-MNIST Classifier</h3>
+          <p>
+            An image classifier trained on the Fashion-MNIST dataset to recognise ten categories of clothing.
+          </p>
+          <ul class="chips"><li>Python</li><li>Neural networks</li><li>Computer vision</li></ul>
+          <div class="links">
+            <a href="https://github.com/santin203/FashionMNIST-Classifier" target="_blank" rel="noopener">Source ↗</a>
+          </div>
+        </article>
+      </div>
+
+      <details class="archive reveal">
+        <summary>
+          <span>More from the archive</span>
+          <span class="count">10 repos</span>
+        </summary>
+        <div class="table-scroll">
+          <table class="archive-table">
+            <thead>
+              <tr><th>Year</th><th>Project</th><th>Built with</th><th><span class="sr-only">Link</span></th></tr>
+            </thead>
+            <tbody>
+              <tr><td>2025</td><td>Crazy Eights</td><td>Java</td><td><a href="https://github.com/santin203/Crazy-Eights" target="_blank" rel="noopener">↗</a></td></tr>
+              <tr><td>2025</td><td>Pizza Scheduling</td><td>Java</td><td><a href="https://github.com/santin203/Pizza-Scheduling" target="_blank" rel="noopener">↗</a></td></tr>
+              <tr><td>2025</td><td>Car Rental Manager</td><td>Java</td><td><a href="https://github.com/santin203/Car-Rental-Manager" target="_blank" rel="noopener">↗</a></td></tr>
+              <tr><td>2024</td><td>UNO Game</td><td>Java</td><td><a href="https://github.com/santin203/UNO-Game" target="_blank" rel="noopener">↗</a></td></tr>
+              <tr><td>2024</td><td>Pseudo Plants vs. Zombies</td><td>C</td><td><a href="https://github.com/santin203/Pseudo-Plants-vs-Zombies" target="_blank" rel="noopener">↗</a></td></tr>
+              <tr><td>2024</td><td>WAV Normalizer</td><td>C</td><td><a href="https://github.com/santin203/Wav-Normalizer" target="_blank" rel="noopener">↗</a></td></tr>
+              <tr><td>2024</td><td>Temperature-Sensitive Light</td><td>C · Embedded</td><td><a href="https://github.com/santin203/Temp-Sensitive-Light" target="_blank" rel="noopener">↗</a></td></tr>
+              <tr><td>2024</td><td>Python Battleship</td><td>Python</td><td><a href="https://github.com/santin203/Python-Battleship" target="_blank" rel="noopener">↗</a></td></tr>
+              <tr><td>2024</td><td>CFG Parser</td><td>Python</td><td><a href="https://github.com/santin203/CFG-Parser" target="_blank" rel="noopener">↗</a></td></tr>
+              <tr><td>2024</td><td>Finite Automata Simulator</td><td>Python</td><td><a href="https://github.com/santin203/FAs-Simulator" target="_blank" rel="noopener">↗</a></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+    </section>
+
+    <!-- ───────────────────────────── Skills ───────────────────────────── -->
+    <section id="skills" class="section wrap">
+      <header class="section-head">
+        <span class="section-num">04</span>
+        <h2>Skills &amp; credentials</h2>
+      </header>
+
+      <div class="skills">
+        <div class="skill-group reveal">
+          <h3>Data engineering &amp; analytics</h3>
+          <ul class="chips"><li>Python</li><li>SQL</li><li>R</li><li>SAS</li><li>Pandas</li><li>NumPy</li><li>ETL</li><li>Data validation</li><li>Data transformation</li></ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Clinical &amp; statistical programming</h3>
+          <ul class="chips"><li>SDTM</li><li>ADaM</li><li>TLGs</li><li>pharmaverse</li><li>Clinical trials</li><li>GCP · ICH E6(R3)</li></ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Software development</h3>
+          <ul class="chips"><li>TypeScript</li><li>JavaScript</li><li>React</li><li>Next.js</li><li>Java</li><li>C#</li><li>C / C++</li><li>REST APIs</li></ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Databases &amp; cloud</h3>
+          <ul class="chips"><li>AWS</li><li>PostgreSQL</li><li>DynamoDB</li><li>Git &amp; GitHub</li><li>Linux</li></ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Data science &amp; AI</h3>
+          <ul class="chips"><li>scikit-learn</li><li>TensorFlow</li><li>Keras</li><li>Jupyter</li><li>Matplotlib</li><li>Seaborn</li></ul>
+        </div>
+      </div>
+
+      <div class="creds">
+        <div class="cred-card reveal">
+          <h3>Education</h3>
+          <p class="cred-main">B.S. Computer Science</p>
+          <p class="muted">Texas Tech University Costa Rica · 2021 — 2025</p>
+          <p class="gpa"><span>3.86</span> / 4.0 GPA</p>
+          <ul class="plain">
+            <li>Magna Cum Laude</li>
+            <li>President's Honor List ×2 · Dean's Honor List ×5</li>
+            <li>Merit-based Scholarship</li>
+          </ul>
+        </div>
+        <div class="cred-card reveal">
+          <h3>Certifications</h3>
+          <ul class="cert-list">
+            <li><span>Certified in Cybersecurity</span><small>ISC2</small></li>
+            <li><span>Good Clinical Practice — ICH E6(R3)</span><small>GCP</small></li>
+            <li><span>GitHub Foundations</span><small>GitHub</small></li>
+            <li><span>Scrum Fundamentals</span><small>SCRUMstudy</small></li>
+          </ul>
+        </div>
+        <div class="cred-card reveal">
+          <h3>Relevant coursework</h3>
+          <p class="muted coursework">
+            Data Structures &amp; Algorithms · Database Systems · Artificial Intelligence · Probability &amp;
+            Statistics · Cybersecurity · Object-Oriented Programming · Computer Architecture · Embedded Systems
+            · Discrete Math
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────────────────────── Contact ───────────────────────────── -->
+    <section id="contact" class="section wrap contact">
+      <header class="section-head">
+        <span class="section-num">05</span>
+        <h2>Contact</h2>
+      </header>
+      <p class="contact-lede reveal">
+        Hiring for a data, software or statistical programming role, or just want to talk shop?
+      </p>
+      <div class="contact-row reveal">
+        <a class="email" href="mailto:santiago.jimenez.casas@gmail.com">santiago.jimenez.casas<wbr />@gmail.com</a>
+        <button class="copy" type="button" data-copy="santiago.jimenez.casas@gmail.com">Copy</button>
+      </div>
+      <ul class="contact-links reveal">
+        <li><a href="https://www.linkedin.com/in/jimenezsantiago/" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+        <li><a href="https://github.com/santin203" target="_blank" rel="noopener">GitHub ↗</a></li>
+        <li><a href="assets/Santiago_Jimenez_CV.pdf" target="_blank" rel="noopener">CV (PDF) ↗</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© <span id="year">2026</span> Santiago Jiménez Casas</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
